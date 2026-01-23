@@ -1,0 +1,15 @@
+proxies:
+  - name: "VLESS Germany 🇩🇪 (max.ru)"
+    type: vless
+    server: 144.31.167.144
+    port: 8443
+    uuid: c04e20e6-0a3c-43a1-8d56-327a1f1cfd6f
+    udp: true
+    tls: true
+    network: tcp
+    servername: www.max.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: Lw3rTxq56c4G9yfSJXTLMcdQlmdJ1EsuCUexW7uzeWQ
+      short-id: 57cb
+    client-fingerprint: firefox
